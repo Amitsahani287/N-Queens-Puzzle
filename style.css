@@ -13,7 +13,7 @@ body {
   top: -20px;
   width: 100%;
   background-color: #011627;
-  color: #fdfffc;
+  color: #2b7307;
 }
 
 .header h2 {
@@ -40,7 +40,7 @@ div.n-queen {
   font-size: 14px;
   padding: 4px;
   border: none;
-  border-bottom: 2px solid #2ec4b6;
+  border-bottom: 2px solid #096960;
   outline: none;
   background: transparent;
 }
@@ -49,7 +49,7 @@ div.n-queen {
   position: absolute;
   top: 4px;
   left: 0px;
-  color: #2ec4b6;
+  color: #176a61;
   font-size: 14px;
   pointer-events: none;
   transition: 0.3s;
@@ -79,7 +79,7 @@ div.n-queen {
   margin: 0 auto;
   height: 7px;
   border-radius: 7px;
-  background: linear-gradient(90deg, #e8eddf 60%, #e8eddf 60%);
+  background: linear-gradient(90deg, #598605 60%, #588407 60%);
   outline: none;
 }
 
@@ -89,7 +89,7 @@ div.n-queen {
   top: -10px;
   font-size: 14px;
   font-weight: 500;
-  color: #fa7921;
+  color: #a7490b;
 }
 
 .slider::before {
@@ -99,7 +99,7 @@ div.n-queen {
   right: 0px;
   font-size: 14px;
   font-weight: 500;
-  color: #fa7921;
+  color: #a44506;
 }
 
 /* Google chrome */
@@ -110,7 +110,7 @@ div.n-queen {
   position: relative;
   top: -2px;
   cursor: pointer;
-  background-color: #fa7921;
+  background-color: #a84c0e;
   border-radius: 50%;
   z-index: 2;
 }
@@ -120,14 +120,14 @@ div.n-queen {
   height: 15px;
   width: 15px;
   z-index: 1;
-  color: #ffba08;
+  color: #ad800d;
 }
 
 /* Mozilla firefox */
 .slider::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background-color: #fa7921;
+  background-color: #bb5816;
   cursor: pointer;
   position: relative;
   top: -2px;
@@ -136,13 +136,13 @@ div.n-queen {
 }
 
 .slider::-webkit-slider-thumb:hover {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px #fa7921;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #bd4e05d2;
 }
 
 #progress-bar {
   width: 60%;
   height: 7px;
-  background: #ffd200;
+  background: #665403;
   border-radius: 7px;
   position: absolute;
   top: 7px;
